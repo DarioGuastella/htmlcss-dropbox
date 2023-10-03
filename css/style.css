@@ -12,6 +12,8 @@ body {
 
 /******************************* COMUNI */
 
+/* TESTI */
+
 h2 {
     font-size: 35px;
 }
@@ -20,6 +22,10 @@ hr {
     border: none;
     height: 1px;
     background-color: lightgray;
+}
+
+.purpled {
+    color: #61082b;
 }
 
 .inverted {
@@ -65,8 +71,10 @@ hr {
 
 .mb-10{margin-bottom: 10px;}
 .mb-30{margin-bottom: 30px;}
+.mb-50{margin-bottom: 50px;}
 .mb-100{margin-bottom: 100px;}
 
+.m0a {margin: 0 auto;}
 /* TEXT ALIGN */
 
 .lefted {text-align: left;}
@@ -93,24 +101,17 @@ hr {
     margin: 20px 0 20px 0;
 }
 
-.btn-blue a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.btn-white a {
-    text-decoration: none;
-    color: inherit;
+.btn-trial {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    height: 100%;
+    padding: 8px 40px 8px 40px;
 }
 
 /************* LINK */
 
-.header-item a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.jumbotron a {
+.btn-blue a, .btn-white a, .btn-trial a, .header-item a, .jumbotron a {
     text-decoration: none;
     color: inherit;
 }
@@ -198,10 +199,6 @@ h1 {
     min-height: 200px;
 }
 
-.tariff-title {
-    margin-bottom: 50px;
-}
-
 input:last-child {
     margin-left: 40px;
 }
@@ -248,10 +245,6 @@ input:last-child {
 
 /* CLIENTI */
 
-.clients-box {
-    margin: 0 auto;
-}
-
 #designit {
     border: 15px solid #d1e9cd;
 }
@@ -262,4 +255,9 @@ input:last-child {
 
 .center-box-clients > img {
     width: 50%;
+}
+
+/* TRIAL */
+.trial {
+   
 }
