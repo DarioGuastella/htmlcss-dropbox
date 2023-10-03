@@ -64,6 +64,7 @@ hr {
 
 /* MARGINI */
 
+.mt-30{margin-top: 30px;}
 .mt-50{margin-top: 50px;}
 .mt-100{margin-top: 100px;}
 
@@ -73,6 +74,8 @@ hr {
 .mb-30{margin-bottom: 30px;}
 .mb-50{margin-bottom: 50px;}
 .mb-100{margin-bottom: 100px;}
+
+.mr-40{margin-right: 40px;}
 
 .m0a {margin: 0 auto;}
 /* TEXT ALIGN */
@@ -258,6 +261,3 @@ input:last-child {
 }
 
 /* TRIAL */
-.trial {
-   
-}
