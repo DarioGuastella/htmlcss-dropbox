@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- INIZIO HEADER -->
-    <header class="d-flex">
+    <header class="d-flex jcont-between">
         <div class="left-container d-flex">
 
             <div class="header-item">
@@ -73,7 +73,7 @@
                 <input type="radio" name="piano" required>Fatturazione annuale
             </div>
             <!-- BOX TARIFFE  -->
-            <div class="d-flex wrapped tariff-box">
+            <div class="d-flex wrapped centered jcont-between">
                 <!-- COLONNA SINISTRA -->
                 <div class="plan-column w-30 mt-50">
                     <p class="column-title">Singolo</p>
@@ -135,16 +135,16 @@
                     </div>
                 </div>
                 <!-- BOX INFERIORE -->
-                <div class="w-100 down-box mb-100 mt-50 d-flex wrapped">
+                <div class="w-100 down-box-team mb-100 mt-50 d-flex wrapped">
                     <p class="column-title w-100">Team</p>
                     
-                    <div class="leftbox lefted w-70">
+                    <div class="leftbox-team lefted w-70">
                         <h4 class="mb-10">Enterprise</h4>
                         <h5 class="mb-30">Contatta l'ufficio vendite per i prezzi</h5>
                         <p class="column-parag">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
 
                     </div>
-                    <div class="rightbox w-30">
+                    <div class="rightbox-team w-30">
                         <div class="btn-blue btn-marg p-20 centered">
                             <a href="#">Contatta l'ufficio vendite</a>
                         </div>                        
@@ -171,7 +171,7 @@
 
             <h2 class="w-100 tariff-title">Esegui più operazioni con Dropbox Business</h2>
                        
-            <div class="d-flex wrapped business-box">
+            <div class="d-flex wrapped jcont-between">
                 <!-- COLONNA SINISTRA -->
                 <div class="w-30">
                     <div class="lefted py-20">
@@ -240,6 +240,50 @@
 
                 </div>
             </div>
+        </section>
+        <!-- CLIENTI -->
+        <section class="w-100 clients">
+            <div class="clients-box d-flex jcont-between">
+                <!-- COLONNA SINISTRA -->
+                <div class="left-box-clients w-33 d-flex wrapped">
+                    <div id="designit" class="w-50 d-flex jcont-center align-icenter single-client-box bg-green">
+                        <img class="w-50 inverted" src="img/designit.svg" alt="">
+                    </div>
+                    <div id="arizona-university" class="d-flex jcont-center align-icenter bg-purple single-client-box w-50">
+                        <img class="w-50 inverted" src="img/arizona_state_university.svg" alt="">
+                    </div>
+                    <div id="florida-university" class="d-flex jcont-center align-icenter bg-lightblue single-client-box w-50">
+                        <img class="w-50 inverted" src="img/university_of_florida.svg" alt="">
+                    </div>
+                    <div id="topps" class="d-flex jcont-center align-icenter bg-red single-client-box w-50">
+                        <img class="w-50 inverted" src="img/topps.svg" alt="">
+                    </div>
+                </div>
+                <!-- COLONNA CENTRALE -->
+                <div class="center-box-clients w-33 d-flex wrapped flex-col p-50 bg-grey">
+                    <img src="img/designit.svg" alt="">
+                    <hr class="w-25 my-40">
+                    <p class="column-parag">"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".</p>
+                    <p class="column-parag">Morten Thomsen, Global Lead</p>
+                </div>
+                <!-- COLONNA DESTRA -->
+                <div class="right-box-clients w-33 d-flex wrapped">
+                    <div id="worldbicycle" class="w-50 d-flex jcont-center align-icenter bg-darkred single-client-box">
+                        <img class="w-50 inverted" src="img/world_bicycle_relief.svg" alt="">
+                    </div>
+                    <div id="hearst" class="d-flex jcont-center align-icenter bg-sky w-50">
+                        <img class="w-50 inverted" src="img/hearst_corp.svg" alt="">
+                    </div>
+                    <div id="lonely-planet" class="d-flex jcont-center align-icenter bg-nightblue single-client-box w-50">
+                        <img class="w-50 inverted" src="img/lonely_planet.svg" alt="">
+                    </div>
+                    <div id="clear-channel" class="d-flex jcont-center align-icenter bg-gold single-client-box w-50">
+                        <img class="w-50 inverted" src="img/clear_channel.svg" alt="">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="trial"></div>
 
         </section>
     </main>
