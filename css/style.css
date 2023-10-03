@@ -14,6 +14,10 @@ body {
 
 /******************************* COMUNI */
 
+h2 {
+    font-size: 35px;
+}
+
 hr {
     border: none;
     height: 1px;
@@ -30,6 +34,7 @@ hr {
 
 .p-20 {padding: 20px;}
 .p-50 {padding: 50px;}
+.py-20{padding: 20px 0 20px 0;}
 
 
 .mt-50{margin-top: 50px;}
@@ -74,6 +79,8 @@ hr {
 
 /************* LINK */
 
+
+
 .header-item a {
     text-decoration: none;
     color: inherit;
@@ -109,6 +116,8 @@ header {
     padding: 0 15px 0 15px;
     position: fixed;
     top: 0;
+    z-index: 999;
+    box-shadow: 0 1px 2px grey;
 }
 
 /********************************* MAIN */
@@ -186,9 +195,7 @@ input:last-child {
 }
 
 /* CONTENUTO COLONNA TARIFFE */
-.column-text {
-    padding: 20px;
-}
+
 
 .installment {
     opacity: 0.5;
@@ -222,6 +229,8 @@ input:last-child {
     height: 100%;
 }
 
-.partner-box {
-    
+.business-box {
+    justify-content: space-between;
+
 }
+
