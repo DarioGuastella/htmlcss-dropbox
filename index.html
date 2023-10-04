@@ -11,34 +11,34 @@
 <body>
     <!-- INIZIO HEADER -->
     <header class="d-flex jcont-between">
-        <div class="left-container d-flex">
+        <div class="left-container d-flex align-icenter h-full">
 
-            <div class="header-item">
-                <a href="#"><img src="img/logo-small.png" alt="Logo"></a>
+            <div class="header-logo mr-40">
+                <a href="#"><img class="logo" src="img/logo-small.png" alt="Logo"></a>
             </div>
-            <div class="header-item">
+            <div class="header-item d-flex align-icenter mr-20">
                 <a href="#">Perchè Dropbox</a>
             </div>
-            <div class="header-item">
+            <div class="header-item d-flex align-icenter mr-20">
                 <a href="#">Funzioni</a>
             </div>
-            <div class="header-item">
+            <div class="header-item d-flex align-icenter mr-20">
                 <a href="#">Piani e Prezzi</a>
             </div>
         </div>
 
-        <div class="right-container d-flex">
+        <div class="right-container d-flex align-icenter h-full">
 
-            <div class="header-item">
+            <div class="header-item d-flex align-icenter mr-20">
                 <a href="#">Supporto</a>
             </div>
-            <div class="header-item">
+            <div class="header-item d-flex align-icenter mr-20">
                 <a href="#">Contatta l'ufficio vendite</a>
             </div>
-            <div class="header-item">
+            <div class="header-item d-flex align-icenter mr-20">
                 <a href="#">Accedi</a>
             </div>
-            <div class="header-item btn-blue">
+            <div class="header-btn btn-blue">
                 <a href="#">Inizia</a>
             </div>
         </div>
@@ -69,8 +69,10 @@
         <section class="tariff-plans w-50">
             <h2 class="w-100 mb-50">Trova il piano business che fa per te</h2>
             <div class="plans-button">
-                <input type="radio" name="piano" required=> Fatturazione mensile          
-                <input type="radio" name="piano" required> Fatturazione annuale
+                <input type="radio" id="monthly" name="piano"> 
+                <label for="monthly" class="mr-40">Fatturazione mensile</label>
+                <input type="radio" id="annual" name="piano">
+                <label for="annual">Fatturazione annuale</label>
             </div>
             <!-- BOX TARIFFE  -->
             <div class="d-flex wrapped centered jcont-between">
@@ -80,7 +82,7 @@
                     <div class="lefted p-20">
                         <h4>Professional</h4>
                         <h5 class="mt-20 fs-14">€ 12.00</h5>
-                        <p class="installment">/mese</p>
+                        <p class="installment">/mese</p> <!--preferire div anzichè paragrafi, per una questione semantica-->
                         <p class="column-parag"><i class="fa-solid fa-user pr-5" style="color: #000000;"></i>1 utente</p>
                         <div class="d-flex">
                             <i class="fa-solid fa-folder pr-5" style="color: #000000;"></i>
@@ -313,10 +315,14 @@
                     </div>
                 </div>
                 <!-- COLONNA CENTRALE -->
-                <div class="center-box-clients w-33 d-flex wrapped flex-col p-50 bg-grey">
+                <div class="center-box-clients w-33 d-flex wrapped p-50 bg-grey">
                     <img src="img/designit.svg" alt="">
-                    <hr class="w-25 my-40">
-                    <p class="column-parag">"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".</p>
+                    <hr class="w-25 my-40 mr-200">
+                    <p class="column-parag">"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper". Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero beatae totam ea assumenda id praesentium qui nulla pariatur quisquam expedita! Qui quas aut autem laudantium facilis voluptatum officiis sunt eveniet.
+                    Velit perferendis veritatis dolores reprehenderit autem tenetur, doloribus voluptates id culpa quod voluptas mollitia maiores nesciunt animi consequatur nulla eum ea quas, cupiditate rem dolorem! In dolor assumenda quidem nisi!
+                    Quisquam illo laborum quae porro, saepe maiores illum animi consequuntur quos quam, vero recusandae, sit tempora velit laudantium nobis dicta eum perspiciatis fugit? Sapiente obcaecati nisi aliquid, quibusdam hic eveniet!
+                    Velit perferendis veritatis dolores reprehenderit autem tenetur, doloribus voluptates id culpa quod voluptas mollitia maiores nesciunt animi consequatur nulla eum ea quas, cupiditate rem dolorem! In dolor assumenda quidem nisi!
+                    Quisquam illo laborum quae porro, saepe maiores illum animi consequuntur quos quam, vero recusandae, sit tempora velit laudantium nobis dicta eum perspiciatis fugit? Sapiente obcaecati nisi aliquid, quibusdam hic eveniet!</p>
                     <p class="column-parag">Morten Thomsen, Global Lead</p>
                 </div>
                 <!-- COLONNA DESTRA -->
