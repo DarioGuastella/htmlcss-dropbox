@@ -117,7 +117,7 @@ hr {
     margin: 20px 0 20px 0;
 }
 
-.btn-trial {
+.btn-flat {
     background-color: white;
     color: black;
     display: inline-block;
@@ -127,7 +127,7 @@ hr {
 
 /************* LINK */
 
-.btn-blue a, .btn-white a, .btn-trial a, .header-item a, .jumbotron a, li > a {
+.btn-blue a, .btn-white a, .btn-flat a, .header-item a, .jumbotron a, li > a {
     text-decoration: none;
     color: inherit;
 }
@@ -145,11 +145,24 @@ hr {
     background-color: #5898ff;
 }
 
-.btn-white:hover, .btn-trial:hover {
+.btn-white:hover, .btn-flat:hover {
     background-color: grey;
     color: white;
 
 }
+
+.faq-answer {
+    display: none;
+}
+
+.faq-box:hover .faq-answer{
+    display: block;
+}
+.faq-box:hover i {
+    transform: rotate(180deg);
+}
+
+
 /********************************* FLEX */
 
 .d-flex {display: flex;}
